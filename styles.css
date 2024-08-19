@@ -1,15 +1,35 @@
 .hexagon-container {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
-.hexagon-container input {
-    width: 30px;
-    height: 30px;
-    margin: 10px;
+.hexagon-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.hexagon {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
     text-align: center;
-    font-size: 20px;
+    font-size: 24px;
+}
+
+.grey {
+    background-color: #f7f7f7;
+}
+
+.yellow {
+    background-color: #ffff00;
+}
+
+#find-solutions {
+    margin-top: 20px;
 }
 
 #solutions {

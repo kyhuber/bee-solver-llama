@@ -1,0 +1,17 @@
+.hexagon-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.hexagon-container input {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+#solutions {
+    margin-top: 20px;
+}

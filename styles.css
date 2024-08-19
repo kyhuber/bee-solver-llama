@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-width: 300px; /* adjust to your liking */
 }
 
 .hexagon-row {
@@ -18,10 +19,15 @@
     border-radius: 10px;
     text-align: center;
     font-size: 24px;
+    transition: background-color 0.2s ease; /* optional */
+}
+
+.hexagon:focus, .hexagon:hover {
+    background-color: #eee; /* optional */
 }
 
 .grey {
-    background-color: #f7f7f7;
+    background-color: #ddd; /* adjusted color */
 }
 
 .yellow {
@@ -30,8 +36,10 @@
 
 #find-solutions {
     margin-top: 20px;
+    cursor: pointer; /* added */
 }
 
 #solutions {
     margin-top: 20px;
+    padding: 10px; /* added */
 }

@@ -1,31 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bee Solver</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <div class="hexagon-container">
-        <div class="hexagon-row">
-            <input type="text" id="letter-1" maxlength="1" class="hexagon grey">
-            <input type="text" id="letter-2" maxlength="1" class="hexagon grey">
-            <input type="text" id="letter-3" maxlength="1" class="hexagon grey">
-        </div>
-        <div class="hexagon-row">
-            <input type="text" id="letter-4" maxlength="1" class="hexagon grey">
-            <input type="text" id="center-letter" maxlength="1" class="hexagon yellow">
-            <input type="text" id="letter-5" maxlength="1" class="hexagon grey">
-        </div>
-        <div class="hexagon-row">
-            <input type="text" id="letter-6" maxlength="1" class="hexagon grey">
-            <input type="text" id="letter-7" maxlength="1" class="hexagon grey">
-        </div>
+<div class="hexagon-container">
+    <div class="hexagon-row">
+        <input type="text" id="letter-1" maxlength="1" class="hexagon grey">
+        <input type="text" id="letter-2" maxlength="1" class="hexagon grey">
+        <input type="text" id="letter-3" maxlength="1" class="hexagon grey">
     </div>
-    <button id="find-solutions">Find Solution Words</button>
-    <div id="solutions"></div>
-
-    <script src="script.js"></script>
-</body>
-</html>
+    <div class="hexagon-row">
+        <input type="text" id="letter-4" maxlength="1" class="hexagon grey">
+        <label for="center-letter">Center Letter:</label>
+        <input type="text" id="center-letter" maxlength="1" class="hexagon yellow">
+        <input type="text" id="letter-5" maxlength="1" class="hexagon grey">
+    </div>
+    <div class="hexagon-row">
+        <input type="text" id="letter-6" maxlength="1" class="hexagon grey">
+        <input type="text" id="letter-7" maxlength="1" class="hexagon grey">
+    </div>
+</div>

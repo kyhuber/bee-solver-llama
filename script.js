@@ -3,8 +3,8 @@ const wordsDictionaryUrl = 'https://raw.githubusercontent.com/kyhuber/bee-solver
 fetch(wordsDictionaryUrl)
     .then(response => response.json())
     .then(words => {
-        const solutionsDiv = document.getElementById('solutions');
-        const findSolutionsButton = document.getElementById('find-solutions');
+        const solutionsDiv = document.getElementById('solutionList');
+        const findSolutionsButton = document.getElementById('solveButton');
 
         findSolutionsButton.addEventListener('click', () => {
             const letters = Array.from(document.querySelectorAll('input')).map(input => input.value);
